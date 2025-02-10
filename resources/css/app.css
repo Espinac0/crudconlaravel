@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.header{
+    @apply h-10v bg-header flex flex-row
+    justify-between items-center p-3
+}
